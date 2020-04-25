@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav.js';
+import Landing from './components/Landing.js';
+import About from './components/About.js';
+import Services from './components/Services.js';
+import Rate from './components/Rate.js';
+import Contact from './components/Contact.js';
+import Driver from './components/Driver.js';
+import Footer from './components/Footer.js';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Switch>
+          <Route path="/" exact component={Landing}/>
+          <Route path="/about" component={About}/>
+          <Route path="/services" component={Services}/>
+          <Route path="/rate" component={Rate}/>
+          <Route path="/contact" component={Contact}/>
+          <Route path="/driver" component={Driver}/>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

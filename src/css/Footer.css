@@ -1,0 +1,19 @@
+.footer{
+    background: rgba(0,0,0,.9);
+    color:white;
+    padding: 50px 100px;
+}
+.footer .phoneNumbers{
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:70px;
+}
+.footer .phoneNumbers .name{
+    font-size:1.1rem;
+    margin-bottom:10px;
+}
+
+.footer .bottomInfo{
+    display:flex;
+    justify-content: space-evenly;
+}
