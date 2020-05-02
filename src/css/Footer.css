@@ -23,17 +23,22 @@
         padding: 50px 40px;
     }
 
+    .footer .phoneNumbers{ 
+        flex-direction:column;
+        align-items: center;
+    }
+
     .footer .phoneNumbers div{ 
-        padding:0 0;
+        padding:10px 0;
     }
 
     .footer .phoneNumbers .name{
-        font-size:.8rem;
+        font-size:1rem;
         margin-bottom:10px;
     }
 
     .footer .phoneNumbers .phone{
-        font-size:.8rem;
+        font-size:1rem;
         margin-bottom:10px;
     }
     
