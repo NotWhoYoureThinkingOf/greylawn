@@ -36,7 +36,7 @@ nav .menu .mobile-menu{
 }
 
 nav .links a{
-    padding: 20px 0px;
+    padding: 20px 20px;
     text-decoration: none;
     color: rgba(0,0,0,.8);
     font-weight:500;
@@ -60,11 +60,12 @@ nav .links a:hover {
         display:none;
         flex-direction:column;
         position: absolute;
-        width:100vw;
+        width:100%;
         background:white;
         top:111%;
-        left:-1%;
+        left:0%;
         text-align:center;
+        overflow-x: hidden;
     }
 
     nav .mobile-links a {
