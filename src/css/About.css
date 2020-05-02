@@ -1,0 +1,60 @@
+.main-about{
+    /* margin-bottom: 50px; */
+    color: #1b1b1b;
+}
+
+.main-about p{
+    margin-bottom: 15px;
+    line-height:1.6;
+}
+
+.main-about .header-img{
+    height:400px;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    margin-bottom:50px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main-about .header-img .image{
+    height:100%;
+    width:100%;
+    background-image: url('https://www.incimages.com/uploaded_files/image/1940x900/getty_152415032_109471.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat:no-repeat;
+    filter:blur(4px) brightness(90%);
+}
+
+.main-about .header-img h2{
+    position:absolute;
+    /* top:35%;
+    left:37%; */
+    font-size:7rem;
+    color:white;
+    text-shadow:0px 5px 20px rgba(0,0,0,0.91), 
+    0px 5px 20px rgba(0,0,0,0.91);
+    letter-spacing:5px;
+}
+
+.main-about .about-content{
+    margin-bottom:0;
+    width: 50%;
+    margin:0 auto;
+}
+
+.main-about .about-content p{
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 985px){    
+    .main-about .header-img h2{ 
+        width:80%;       
+        font-size:6rem;
+        text-align:center;
+    }
+}

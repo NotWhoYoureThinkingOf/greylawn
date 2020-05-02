@@ -8,6 +8,38 @@
     line-height:1.6;
 }
 
+.main-services .header-img{
+    height:400px;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    margin-bottom:50px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main-services .header-img .image{
+    height:100%;
+    width:100%;
+    background-image: url('https://www.freshwayfoods.com/wp-content/uploads/2014/12/logistics2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    filter:blur(4px) brightness(90%);
+}
+
+.main-services .header-img h2{
+    position:absolute;
+    /* top:34%;
+    left:37.5%; */
+    font-size:7rem;
+    color:white;
+    text-shadow:0px 5px 20px rgba(0,0,0,0.91), 
+    0px 5px 20px rgba(0,0,0,0.91);
+    letter-spacing:5px;
+}
+
 .main-services .service{
     margin-bottom:0;
 }
@@ -122,4 +154,151 @@
 
 .extra-services ul li{
     line-height:1.6;
+}
+
+@media only screen and (max-width: 1790px){ 
+    .main-services .tcl {
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:center;
+        justify-content: space-between;
+        background: linear-gradient(to right, #7db9e8 0%,#ffffff 76%);
+        margin:0 auto;
+        width:100%;
+    }
+    
+    .main-services .tcl .tclInfo {
+        width:100%;
+        padding: 40px 0;
+    }
+    
+    .main-services .tcl .tclInfo .info{    
+        width:100%;
+        margin-bottom:40px;
+        padding-right: 100px;
+        padding-left: 100px;
+        grid-row: 1/2;
+    }
+    
+    .main-services .tcl img{
+        min-height:700px;
+        min-width:100vw;
+    }
+    
+    .main-services .tcl .extra-services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align:center;
+    }
+
+    .main-services .tcl .extra-services .specialized{
+        margin-bottom:60px;
+    }
+}
+
+@media only screen and (max-width: 1380px){
+    .main-services img{
+        -webkit-box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    .main-services .refrigeration {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+        background: linear-gradient(to right, #ffffff 24%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        padding: 40px 0 0;
+        position:relative;
+        overflow:hidden;
+    }
+    
+    .main-services .refrigeration .info{    
+        width:80%;
+        /* text-align: center; */
+    }
+
+    .main-services .refrigeration .info p{    
+        margin-bottom:40px;
+    }
+    
+    .main-services .refrigeration img{
+        min-width: 900px;
+        max-width:80%;
+        max-height:583px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .main-services .frozen {
+        display:flex;
+        flex-direction: column-reverse;
+        align-items:center;
+        justify-content: space-between;
+        background: linear-gradient(to right, #7db9e8 0%,#ffffff 76%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        padding: 40px 0 0;
+        position:relative;
+        overflow:hidden;
+    }
+    
+    .main-services .frozen .info{    
+        /* text-align: center; */
+        width:80%;
+    }
+
+    .main-services .frozen .info p{    
+        margin-bottom:40px;
+    }
+    
+    .main-services .frozen img{
+        width:100%;
+        max-height:583px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    .main-services .dands {
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+        background: linear-gradient(to right, #ffffff 24%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        padding: 40px 0 0;
+        position:relative;
+        overflow:hidden;
+    }
+    
+    .main-services .dands .info{    
+        flex-direction: column;
+        width:80%;
+    }
+
+    .main-services .dands .info p{    
+        margin-bottom:40px;
+    }
+    
+    .main-services .dands img{
+        width:100vw;
+        max-height:700px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        
+    }
+}
+
+@media only screen and (max-width: 985px){    
+    .main-services .header-img h2{ 
+        width:80%;       
+        font-size:6rem;
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width: 900px){    
+    .main-services .refrigeration img{
+        min-width: 100%;
+        max-width:100%;
+    }
 }

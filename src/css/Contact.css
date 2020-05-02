@@ -1,0 +1,260 @@
+.main-contact{
+    margin:0 auto;
+    color: #1b1b1b;
+    position:relative;
+}
+
+.main-contact p{
+    margin-bottom: 15px;
+    line-height:1.6;
+}
+
+.main-contact .header-img{
+    height:400px;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    margin-bottom:50px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.main-contact .header-img .image{
+    height:100%;
+    width:100%;
+    background-image: url('https://www.techdonut.co.uk/sites/default/files/choosing-your-business-email-service-provider-520354987.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat:no-repeat;
+    filter:blur(4px) brightness(90%);
+}
+
+.main-contact .header-img h2{
+    position:absolute;
+    /* top:35%;
+    left:34%; */
+    font-size:7rem;
+    color:white;
+    text-shadow:0px 5px 20px rgba(0,0,0,0.91), 
+    0px 5px 20px rgba(0,0,0,0.91);
+    letter-spacing:5px;
+}
+
+.main-contact .contact-content{
+    margin-bottom:0;
+    width: 80%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-contact .contact-content .info{
+    text-align:center;
+    line-height:1.6;
+    margin-bottom:50px;
+    width:90%;
+}
+
+.main-contact .contact-content .info .info-header{
+    margin-bottom:46px;
+}
+
+.main-contact .contact-content .info .image img{
+    width:600px;
+    border-radius:10px;
+}
+
+.main-contact .contact-content .contact-form{
+    width:100%;
+    margin:0;
+}
+
+.main-contact .contact-content .contact-form form{
+    width:100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main-contact .contact-content .contact-form div{
+    margin-bottom: 20px;
+}
+
+.main-contact .contact-content .contact-form .labels{
+    grid-column: 1/2;
+    display:flex;
+    flex-direction:column;
+    line-height:1.6;
+}
+
+.main-contact .contact-content .contact-form .labels div {
+    margin-bottom: 40px;
+}
+
+.main-contact .contact-content .contact-form .inputs{
+    /* display:flex;
+    flex-direction:column; */
+    grid-column: 2/3;
+    grid-row:1/2;
+    width:100%;
+    align-items:left;
+    justify-content: center;
+}
+
+.main-contact .contact-content .contact-form .inputs input{
+    border:none;
+    border-bottom:1px solid rgba(0,0,0,.1);
+    width:100%;
+    margin-bottom: 47px;
+    box-shadow: 0px 1px rgba(0,0,0,.7);
+    text-align: center;
+}
+
+.main-contact .contact-content .contact-form .inputs select{
+    border:none;
+    width:100%;
+    margin-bottom: 47px;
+}
+
+.main-contact .contact-content .contact-form .additional{
+    grid-column: 1/3;
+}
+
+.main-contact .contact-content .contact-form .additional textarea{
+    grid-column: 1/3;
+    width:100%;
+    height: 13%;
+}
+
+.main-contact .button-container{
+    position:relative;
+}
+
+.button{
+    background: #7db9e8;
+    color:white;
+    padding:20px 40px;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:1.2rem;
+    text-transform: capitalize;
+    position:absolute;
+    top:-750px;
+    left:81%;
+}
+
+
+
+@media only screen and (max-width: 1600px){ 
+    .main-contact{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .main-contact .contact-content .info{
+        width: 100%;
+        margin:0 auto;
+    }
+
+    .main-contact .contact-content .info .info-header p{
+        margin-bottom:30px;
+    }
+    
+    .main-contact .contact-content .info .image{
+        display:none;
+    }
+
+    .main-contact .contact-content{
+        display:flex;
+        flex-direction:column;
+    } 
+
+    .main-contact .contact-content .quote-form{
+        width:100%;
+        margin:0;
+        display:flex;
+        justify-content: center;
+    }
+    
+    .main-contact .contact-content .quote-form form{
+        width:100%;
+        display:grid;
+        grid-template-columns: 30% 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin:0 auto;
+    }
+    
+    .main-contact .contact-content .quote-form div{
+        margin-bottom: 20px;
+    }
+
+    .main-contact .contact-content .quote-form .additional{
+        margin:0 auto;
+    }
+
+    .main-contact .button-container{
+        top:0px;
+        left:-71%;
+        width:100%;
+        text-align: center;
+    }
+
+    .main-contact .button-container .button{        
+        width:80%;
+        font-size:1.4rem;
+    }
+}
+
+@media only screen and (max-width: 985px){    
+    .main-contact .header-img h2{ 
+        width:80%;       
+        font-size:6rem;
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width: 711px){    
+    .main-contact .contact-content .quote-form .inputs input{
+        position:relative;
+    }
+
+    .main-contact .contact-content .quote-form .inputs #destination-zip, #destination-city, #product-desc, #product-weight, #pallets, #customer-name, #contact-person, #phone-number, #email{
+        top:25px;
+    }
+
+    .main-contact .button-container{
+        top:0px;
+        left:-71%;
+    }
+}
+
+@media only screen and (max-width: 666px){   
+    .main-contact .contact-content .quote-form .inputs #destination-city, #product-desc, #product-weight, #pallets, #customer-name, #contact-person, #phone-number, #email{
+        top:50px;
+    }
+
+    .main-contact .button-container{
+        top:0px;
+        left:-71%;
+    }
+}
+
+@media only screen and (max-width: 634px){ 
+
+    .main-contact .button-container{
+        top:0px;
+        left:-71%;
+    }
+}
+
+@media only screen and (max-width: 633px){   
+    .main-contact .contact-content .quote-form .inputs #product-desc, #product-weight, #pallets, #customer-name, #contact-person, #phone-number, #email{
+        top:75px;
+    }
+
+    .main-contact .button-container{
+        top:0px;
+        left:-71%;
+    }
+}

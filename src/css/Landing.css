@@ -20,9 +20,11 @@
     text-shadow:0px 5px 20px rgba(0,0,0,0.91), 
     0px 5px 20px rgba(0,0,0,0.91);
     position:absolute;
-    top:72%;
+    top:65%;
     left:60%;
-    text-align:center; 
+    padding:20px 20px 20px 50px;
+    background: linear-gradient(to right, rgba(0,0,0,0.05) 0%,rgba(0,0,0,0.73) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* text-align:center;  */
 }
 
 .content-area{
@@ -37,6 +39,7 @@
 .content-area .tagline {
     font-size:2rem;
     margin-bottom:70px;
+    font-weight:600;
 }
 
 .content-area .locations{
@@ -48,10 +51,91 @@
 .content-area .locations .state p{
     font-size:1.5rem;
     margin-bottom:20px;
+    font-weight: 500;
 }
 
 .content-area .locations .state ul li {
-    margin-bottom:5px;
+    margin-bottom:15px;
     line-height:1.6;
 }
 
+
+@media only screen and (max-width: 1730px){
+    .landingPage .banner-area .banner{
+        background-position: center center;
+    }
+
+    .landingPage .banner-area .banner .slogan{
+        font-size: 2rem;
+        padding-right:20px;
+    }
+
+    .content-area .info{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-area .tagline {
+        margin-bottom:100px;
+        font-size:2rem;
+    }
+
+    .content-area .locations{
+        display:grid;
+        grid-template-columns: 1fr 1fr;        
+        justify-content: center;
+        text-align:center;
+        grid-gap:170px;
+    }
+}
+
+
+@media only screen and (max-width: 985px){
+    .landingPage .banner-area .banner .slogan{
+        font-size: 1.5rem;
+        padding-right:20px;
+        top:70%;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .landingPage .banner-area .banner .slogan{
+        font-size: 1.5rem;
+        padding-right:20px;
+        top:65%;
+    }
+
+    .content-area .locations{
+        display:grid;
+        grid-template-columns: 1fr;        
+        justify-content: center;
+        text-align:center;
+        grid-gap:80px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .landingPage .banner-area .banner{
+        display:flex;
+        flex-direction:column;
+        align-items: flex-end;
+        background-position:center center;
+    }
+
+    .landingPage .banner-area .banner .slogan{
+        font-size: 1.5rem;
+        padding-right:20px;
+        left:0%;
+        top:81%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .landingPage .banner-area .banner .slogan{
+        font-size: 1.2rem;
+        padding-right:20px;
+        left:0%;
+        top:79%;
+    }
+}

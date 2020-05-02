@@ -17,3 +17,20 @@
     display:flex;
     justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 1250px) {
+    .footer .phoneNumbers div{ 
+        padding:0 28px;
+    }
+    
+    .footer .bottomInfo{
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .footer .bottomInfo .copyright{
+        margin-bottom:20px;
+    }
+
+}
