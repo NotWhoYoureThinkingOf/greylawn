@@ -19,14 +19,29 @@
 }
 
 @media only screen and (max-width: 1250px) {
+    .footer{
+        padding: 50px 40px;
+    }
+
     .footer .phoneNumbers div{ 
         padding:0 28px;
+    }
+
+    .footer .phoneNumbers .name{
+        font-size:.8rem;
+        margin-bottom:10px;
+    }
+
+    .footer .phoneNumbers .phone{
+        font-size:.8rem;
+        margin-bottom:10px;
     }
     
     .footer .bottomInfo{
         display:flex;
         flex-direction:column;
         text-align:center;
+        font-size: .8rem;
     }
 
     .footer .bottomInfo .copyright{
