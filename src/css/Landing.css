@@ -122,7 +122,7 @@
     .landingPage .banner-area .banner .slogan{
         font-size: 1.5rem;
         padding-right:20px;
-        top:70%;
+        top:50%;
     }
 
     .content-area .tagline {
@@ -136,7 +136,7 @@
     .landingPage .banner-area .banner .slogan{
         font-size: 1rem;
         padding-right:20px;
-        top:65%;
+        top:50%;
     }
 
     .content-area .locations{
@@ -160,7 +160,7 @@
         font-size: 1.5rem;
         padding-right:20px;
         left:0%;
-        top:81%;
+        top:50%;
     }
 }
 
@@ -169,6 +169,6 @@
         font-size: 1.2rem;
         padding-right:20px;
         left:0%;
-        top:79%;
+        top:50%;
     }
 }
