@@ -1,6 +1,8 @@
 .main-services{
     /* margin-bottom: 50px; */
     color: #1b1b1b;
+    position: relative;
+    overflow-x: hidden;
 }
 
 .main-services p{
@@ -134,8 +136,7 @@
 .main-services .tcl img{
     min-height:700px;
     max-width:920px;
-    width:100%;
-    
+    width:100%;    
 }
 
 .main-services .tcl .extra-services{
@@ -190,8 +191,8 @@
         flex-direction: column;
         justify-content: center;
         text-align:center;
-        padding-right:50px;
-    padding-left: 50px;
+        padding-right:40px;
+        padding-left: 40px;
     }
 
     .main-services .tcl .extra-services .specialized{
@@ -230,8 +231,7 @@
         min-width: 900px;
         max-width:80%;
         max-height:583px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+
     }
     
     .main-services .frozen {
@@ -257,8 +257,7 @@
     .main-services .frozen img{
         width:100%;
         max-height:583px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+
     }
     
     .main-services .dands {
@@ -283,10 +282,14 @@
     
     .main-services .dands img{
         width:100vw;
-        max-height:700px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        
+        max-height:700px;        
+    }
+
+    .main-services .tcl img{
+        min-width:90vw;
+        max-width:90vw;
+        min-height:583px;
+        max-height:700px;          
     }
 }
 
@@ -302,6 +305,14 @@
     .main-services .refrigeration img{
         min-width: 100%;
         max-width:100%;
+    }
+
+    .main-services .tcl img{
+        min-width: 100%;
+        max-width:100%;
+        min-height:302px;
+        max-height: 302px !important;
+        height:100%;      
     }
 }
 
