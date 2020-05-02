@@ -175,8 +175,8 @@
     .main-services .tcl .tclInfo .info{    
         width:100%;
         margin-bottom:40px;
-        padding-right: 45px;
-        padding-left: 45px;
+        padding-right: 40px;
+        padding-left: 40px;
         grid-row: 1/2;
     }
     
@@ -190,6 +190,8 @@
         flex-direction: column;
         justify-content: center;
         text-align:center;
+        padding-right:50px;
+    padding-left: 50px;
     }
 
     .main-services .tcl .extra-services .specialized{
@@ -306,7 +308,7 @@
 @media only screen and (max-width: 640px){    
     .main-services .header-img h2{ 
         width:80%;       
-        font-size:4rem;
+        font-size:5rem;
         text-align:center;
     }
 }
@@ -314,7 +316,7 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 640px){    
     .main-services .header-img h2{ 
         width:80%;       
-        font-size:4rem;
+        font-size:3rem;
         text-align:center;
     }
 }

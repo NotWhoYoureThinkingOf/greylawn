@@ -55,7 +55,7 @@ export default class Services extends Component {
 								<div className="specialized">
 								<h2 className="title">Specialized Services</h2>
 									<ul>
-										<li>Intermodal drayage to New England, NY ad NJ</li>
+										<li>Intermodal drayage to New England, NY & NJ</li>
 										<li>Warehousing and distribution</li>
 										<li>Temperature controlled TL & LTL</li>
 										<li>Liquor control Permits; all New England states, NY & NJ</li>
