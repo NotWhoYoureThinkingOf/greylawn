@@ -62,7 +62,7 @@ nav .links a:hover {
         position: absolute;
         width:100%;
         background:white;
-        top:111%;
+        top:100%;
         left:0%;
         text-align:center;
         overflow-x: hidden;
