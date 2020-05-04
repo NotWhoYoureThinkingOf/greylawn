@@ -30,99 +30,97 @@ export default class Rate extends Component {
 							<form>
 								<div className="labels">
 									<div>
-										<label htmlFor="fname" className="fname">First Name:</label>						
+										<label htmlFor="fname" className="fname">First Name:</label>	<input type="text" id="fname" name="fname"></input>		
 									</div>
 
 									<div>
 										<label htmlFor="lname" className="lname">Last Name:</label>
+										<input type="text" id="lname" name="lname"></input>
 									</div>
 
 									<div>
 										<label htmlFor="company-name" className="destination-zip">Company Name:</label>
+										<input type="text" id="destination-zip" name="destination-zip"></input>
 									</div>
 
 									<div>
 										<label htmlFor="contact-name" className="contact-name">Contact Name:</label>
+										<input type="text" id="contact-name" name="contact-name"></input>
 									</div>
 
 									<div>
 										<label htmlFor="address1" className="address1">Address Line 1:</label>
+										<input type="text" id="address1" name="address1"></input>
 									</div>
 
 									<div>
 										<label htmlFor="address2" className="address2">Address Line 2:</label>
+										<input type="text" id="address2" name="address2"></input>
 									</div>
 
 									<div>
 										<label htmlFor="city" className="city">City:</label>
+										<input type="text" id="city" name="city"></input>
 									</div>
 
 									<div>
 										<label htmlFor="state" className="state">State:</label>
+										<input type="text" id="state" name="city"></input>
 									</div>
 
 									<div>
 										<label htmlFor="zip-code" className="zip-code">Zip Code:</label>
+										<input type="text" id="zip-code" name="zip-code"></input>
 									</div>
 
 									<div>
 										<label htmlFor="phone-number" className="phone-number">Phone Number:</label>
+										<input type="tel" id="phone-number" name="phone-number"></input>
 									</div>
 
 									<div>
 										<label htmlFor="email" className="email">Email Address:</label>
+										<input type="email" id="email" name="email"></input>
 									</div>
 
 									<div>
 										<label htmlFor="type-product" className="type-product">Type of Product:</label>
+										<select id="type=product" name="type-product">
+											<option>Dry</option>
+											<option>Frozen</option>
+											<option>Cooled</option>
+										</select>
 									</div>
 
 									<div>
 										<label htmlFor="interested-in" className="interested-in">Interested In:</label>
+										<select id="interested-in" name="interested-in">
+											<option>Transportation</option>
+											<option>Warehousing</option>
+											<option>Intermodal</option>
+											<option>Distribution</option>
+										</select>
 									</div>
 
 									<div>
 										<label htmlFor="product-desc" className="product-desc">Product Description:</label>
+										<input type="text" id="product-desc" name="product-desc"></input>
 									</div>
-								</div>
-
-								<div className="inputs">
-									<input type="text" id="origin-zip" name="origin-zip"></input>
-									<input type="text" id="origin-city" name="origin-city"></input>
-									<input type="text" id="destination-zip" name="destination-zip"></input>
-									<input type="text" id="destination-city" name="destination-city"></input>
-									<input type="text" id="product-desc" name="product-desc"></input>
-									<input type="text" id="product-weight" name="product-weight"></input>
-									<input type="number" id="pallets" name="pallets" min="0"></input>
-									<input type="text" id="customer-name" name="customer-name"></input>
-									<input type="text" id="contact-person" name="contact-person"></input>
-									<input type="tel" id="phone-number" name="phone-number"></input>
-									<input type="email" id="email" name="email"></input>
-									<select name="type-product">
-										<option>Dry</option>
-										<option>Frozen</option>
-										<option>Cooled</option>
-									</select>
-									<select name="interested-in">
-										<option>Transportation</option>
-										<option>Warehousing</option>
-										<option>Intermodal</option>
-										<option>Distribution</option>
-									</select>
-									<input type="text" id="product-desc" name="product-desc"></input>
 								</div>
 
 								<div className="additional">
 										<p>Please include any additional information or questions here:</p>
 										<textarea rows="8" cols="100" name='additional-information'></textarea>
 								</div>
+
+								
+								<button className="button">Submit</button>
+								
 																
 							</form>
 						</div>
 					</div>
-					<div className="button-container">
-						<div className="button"><span>Submit</span></div>
-					</div>
+					
 				</div>				
 			</div>
 		);

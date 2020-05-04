@@ -113,10 +113,16 @@
 }
 
 .main-rate .rate-content .quote-form form .button {
-    padding:20 40px;
+    padding:20px 40px;
     background:#7db9e8;
     position:absolute;
     top:93%;
+    right:0;
+    outline:none;
+    border:none;
+    border-radius:10px;
+    font-size:1.1rem;
+    color:white;
 }
 
 
@@ -175,7 +181,7 @@
 
     .main-rate .rate-content .quote-form form .button {
         position:absolute;
-        top:92%;
+        top:91.5%;
         text-align:center;
         width:100%;
         left:0;

@@ -89,9 +89,9 @@ export default class Rate extends Component {
 										<textarea name='additional-information'></textarea>
 								</div>
 
-								<div className="button">
+								<button className="button">
 									Submit
-								</div>
+								</button>
 
 																
 							</form>
