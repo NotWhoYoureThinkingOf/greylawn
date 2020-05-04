@@ -186,8 +186,7 @@
 
 @media only screen and (max-width: 985px){    
     .main-rate .header-img h2{ 
-        width:80%; 
-        height:50%;      
+        width:80%;      
         font-size:6rem;
         text-align:center;
     }
@@ -216,6 +215,22 @@
     .main-rate .button-container{
         top:-70px;
         left:-71%;
+    }
+}
+
+@media only screen and (max-width: 640px){    
+    .main-rate .header-img h2{ 
+        width:80%;      
+        font-size:5rem;
+        text-align:center;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 640px){    
+    .main-rate .header-img h2{ 
+        width:80%;      
+        font-size:3rem;
+        text-align:center;
     }
 }
 
