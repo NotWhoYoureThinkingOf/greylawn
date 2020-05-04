@@ -58,3 +58,19 @@
         text-align:center;
     }
 }
+
+@media only screen and (max-width: 640px){    
+    .main-about .header-img h2{ 
+        width:80%;       
+        font-size:5rem;
+        text-align:center;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 640px){    
+    .main-about .header-img h2{ 
+        width:80%;       
+        font-size:3rem;
+        text-align:center;
+    }
+}
