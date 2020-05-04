@@ -30,75 +30,74 @@ export default class Rate extends Component {
 							<form>
 								<div className="labels">
 									<div>
-										<label htmlFor="origin-zip" className="origin-zip">Origin Zip Code:</label>						
+										<label htmlFor="origin-zip" className="origin-zip">Origin Zip Code:</label>	<input type="text" id="origin-zip" name="origin-zip"></input>					
 									</div>
 
 									<div>
 										<label htmlFor="origin-city" className="origin-city">Origin City, State:</label>
+										<input type="text" id="origin-city" name="origin-city"></input>
 									</div>
 
 									<div>
 										<label htmlFor="destination-zip" className="destination-zip">Destination Zip Code:</label>
+										<input type="text" id="destination-zip" name="destination-zip"></input>
 									</div>
 
 									<div>
 										<label htmlFor="destination-city" className="destination-city">Destination City, State:</label>
+										<input type="text" id="destination-city" name="destination-city"></input>
 									</div>
 
 									<div>
 										<label htmlFor="product-desc" className="product-desc">Product Description:</label>
+										<input type="text" id="product-desc" name="product-desc"></input>
 									</div>
 
 									<div>
 										<label htmlFor="product-weight" className="product-weight">Product weight:</label>
+										<input type="text" id="product-weight" name="product-weight"></input>
 									</div>
 
 									<div>
 										<label htmlFor="pallets" className="pallets">Number of Pallets:</label>
+										<input type="number" id="pallets" name="pallets" min="0"></input>
 									</div>
 
 									<div>
 										<label htmlFor="customer-name" className="customer-name">Customer Name:</label>
+										<input type="text" id="customer-name" name="customer-name"></input>
 									</div>
 
 									<div>
 										<label htmlFor="contact-person" className="contact-person">Contact Person:</label>
+										<input type="text" id="contact-person" name="contact-person"></input>
 									</div>
 
 									<div>
 										<label htmlFor="phone-number" className="phone-number">Phone Number:</label>
+										<input type="tel" id="phone-number" name="phone-number"></input>
 									</div>
 
 									<div>
 										<label htmlFor="email" className="email">Email Address:</label>
+										<input type="email" id="email" name="email"></input>
 									</div>
-								</div>
-
-								<div className="inputs">
-									<input type="text" id="origin-zip" name="origin-zip"></input>
-									<input type="text" id="origin-city" name="origin-city"></input>
-									<input type="text" id="destination-zip" name="destination-zip"></input>
-									<input type="text" id="destination-city" name="destination-city"></input>
-									<input type="text" id="product-desc" name="product-desc"></input>
-									<input type="text" id="product-weight" name="product-weight"></input>
-									<input type="number" id="pallets" name="pallets" min="0"></input>
-									<input type="text" id="customer-name" name="customer-name"></input>
-									<input type="text" id="contact-person" name="contact-person"></input>
-									<input type="tel" id="phone-number" name="phone-number"></input>
-									<input type="email" id="email" name="email"></input>
 								</div>
 
 								<div className="additional">
 										<p>Please include any additional information or questions here:</p>
 										<textarea name='additional-information'></textarea>
 								</div>
+
+								<div className="button">
+									Submit
+								</div>
+
 																
 							</form>
 						</div>
 					</div>
-					<div className="button-container">
-						<div className="button"><span>Submit</span></div>	
-					</div>
+					
 				</div>				
 			</div>
 		);
