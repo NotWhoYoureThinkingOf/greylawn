@@ -19,7 +19,7 @@ export default class Rate extends Component {
 					<div className="rate-content">
 						<div className="info">
 							<div className="info-header">
-								<p>Please complete all information below or call one of our toll-free numbers on the Greylawn Foods home page for immediate assistance.</p>
+								<p>Please complete all information below or call one of our toll-free numbers on the Greenyard Foods home page for immediate assistance.</p>
 								<p>We will make every effort to respond within a 12-24 Hour period.</p>
 							</div>
 							<div className="image">

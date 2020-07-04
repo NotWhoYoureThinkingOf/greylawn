@@ -5,24 +5,24 @@ function Footer() {
     <section className="footer">
         <div className="phoneNumbers">
             <div className="greylawn">
-                <p className="name">Greylawn</p>
-                <p className="phone">800-556-6490</p>
+                <p className="name">Greenyard</p>
+                <p className="phone">835-675-4695</p>
             </div>
             <div className="d&s">
-                <p className="name">D & S Logistics</p>
-                <p className="phone">877-461-1117</p>
+                <p className="name">A & C Logistics</p>
+                <p className="phone">871-234-9685</p>
             </div>
             <div className="tcl">
-                <p className="name">TCL, Inc.</p>
-                <p className="phone">800-852-4470</p>
+                <p className="name">TBN, Inc.</p>
+                <p className="phone">800-695-4617</p>
             </div>
         </div>
         <div className="bottomInfo">
             <div className="copyright">
-                <p>Copyright 2004 Greylawn Foods, Inc. | All Rights Reserved</p>
+                <p>Copyright 2004 Greenyard Foods, Inc. | All Rights Reserved</p>
             </div>
             <div className="address">
-                2032 Plainfield Pike Cranston, RI 02921
+                6032 Middlefield Pike Cranston, TX 02921
             </div>
         </div>
 	</section>

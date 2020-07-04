@@ -17,7 +17,7 @@ export default class Services extends Component {
 						<h2>Services</h2>
 					</div>
 					<div className="service hours">				 
-						Greylawn Foods is open 24 hours a day from Sunday night at 10:00pm to Friday night at 6:00pm. Normal scheduled receiving hours are from 8am to 6pm. <br />We also schedule special receiving hours whenever needed - just give us a call. We will arrange for your shipment to be off-loaded, stored, then distributed as you require.
+						Greenyard Foods is open 24 hours a day from Sunday night at 10:00pm to Friday night at 6:00pm. Normal scheduled receiving hours are from 8am to 6pm. <br />We also schedule special receiving hours whenever needed - just give us a call. We will arrange for your shipment to be off-loaded, stored, then distributed as you require.
 					</div>
 					<div className="service refrigeration">
 						<div className="info">
@@ -30,15 +30,15 @@ export default class Services extends Component {
 						<img src="https://www.cheneybrothers.com/wp-content/uploads/2016/06/hp_img_2.jpg" alt="pic2" />
 						<div className="info">
 							<h2 className="title">Frozen</h2>
-							<p>Greylawn Foods maintains a separate warehouse for frozen foods of 35,000 cubic feet capacity at which the temperature is -10 degrees air temperature, available for short and long term orders.</p>
+							<p>Greenyard Foods maintains a separate warehouse for frozen foods of 35,000 cubic feet capacity at which the temperature is -10 degrees air temperature, available for short and long term orders.</p>
 							<p>Once in our warehouses, each producer's products can be consolidated and custom designed programs achieved. Your product can be delivered to your customer's warehouses, and/or their stores on the dates you desire. Together, we can design a distribution program to fit your needs.</p>
 						</div>
 					</div>
 					<div className="service dands">
 						<div className="info">
 							<h2 className="title">D&S Logistics - Brokerage division</h2>
-							<p>Greylawn's established brokerage division handles both truckload (TL) and less than truckload (LTL) shipments of your product. This allows us to supply you with service to all points within the Continental 48 States which are beyond the scope of Greylawn Foods's service area.Greylawn's network of carriers who work for our brokerage division have been selected to give you the same quality of service as provided by Greylawn Foods.</p>
-							<p>Carriers that are used by D&S Logistics have in many instances delivered to our facility in Cranston, RI and have proven themselves reliable. In addition, D&S Logistics works with our Intermodal and LTL companies as well as our warehouse operations to get your product moved efficiently.</p>
+							<p>Greenyard's established brokerage division handles both truckload (TL) and less than truckload (LTL) shipments of your product. This allows us to supply you with service to all points within the Continental 48 States which are beyond the scope of Greenyard Foods's service area. Greenyard's network of carriers who work for our brokerage division have been selected to give you the same quality of service as provided by Greenyard Foods.</p>
+							<p>Carriers that are used by D&S Logistics have in many instances delivered to our facility in Dallas, TX and have proven themselves reliable. In addition, D&S Logistics works with our Intermodal and LTL companies as well as our warehouse operations to get your product moved efficiently.</p>
 						</div>
 						<img src="https://www.sflcompanies.com/wp-content/uploads/2018/11/Coast-To-Coast-Transportation-Solutions2.jpg" alt="pic3" />
 						
@@ -47,8 +47,8 @@ export default class Services extends Component {
 						<img src="https://www.trucking.org/sites/default/files/2020-02/Intermodal%20truck.jpg" alt="pic4" ></img>
 						<div className="tclInfo">
 							<div className="info">
-								<h2 className="title">TCL Inc. - Intermodal</h2>
-								<p>In 1995 a corporation was started by David Goldman. In association with Greylawn Foods, TCL expanded the service abilities of the Greylawn family of companies by offering it's  customers truck-rail and truck-water service.</p>
+								<h2 className="title">TBN Inc. - Intermodal</h2>
+								<p>In 1995 a corporation was started by David Gilman. In association with Greenyard Foods, TBN expanded the service abilities of the Greenyard family of companies by offering it's  customers truck-rail and truck-water service.</p>
 								<p>This added service provides our customers with an alternate means of transporting their products, both to and from national and international markets.</p>
 							</div>
 							<div className="extra-services">

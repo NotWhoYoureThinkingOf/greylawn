@@ -35,7 +35,7 @@ export default class Nav extends Component {
                     <a href='https://www.infinitiworkforce.com/'>Drive Training</a>
                 </div>
                 <div className="logo">
-                    <img src="/img/trucklogo.png" className="trucklogo" alt="logo"></img>Greylawn
+                    <img src="/img/trucklogo.png" className="trucklogo" alt="logo"></img>Greenyard
                     Foods
                 </div>
                 <div className="menu">
